@@ -1,0 +1,51 @@
+.corpo{
+    height: 100vh;
+    width: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(#B22222,#8B0000);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.conteiner{
+    width: 40%;
+    height: 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgba(178,34,34,0.9);
+    border-radius: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.formulario{
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+#nome{
+    padding: 10px;
+    border-radius: 30px;
+    background-color: #FA8072;
+}
+#salario{
+    padding: 10px;
+    border-radius: 30px;
+    background-color: #FA8072;
+}
+ .botao{
+   padding: 15px;
+   border-radius: 30px;
+   border: none;
+   background-color:#FA8072 ;
+   font-size: 1.233em;
+   transition: 1s;
+ }
+ .botao:hover{
+    cursor: pointer;
+    padding: 20px;
+    background-color: #8B0000;
+ }
+
