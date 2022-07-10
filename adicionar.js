@@ -1,6 +1,6 @@
 const ul = document.createElement('ul');
 
-const div = document.querySelector('.conteiner');
+const div = document.querySelector('.conteiner__filho');
 const paragrafo = document.createElement('p');
 const paragrafo2 = document.createElement('p');
 

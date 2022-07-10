@@ -6,22 +6,38 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background: linear-gradient(#B22222,#8B0000);
+    background: linear-gradient(45deg,#E9967A,#FA8072,#FF6347);
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-size: 300% 300%;
+    animation: colors 3s ease infinite;
 }
 .conteiner{
-    width: 40%;
-    min-height: 60%;
+    width: 60%;
+    min-height: 70%;
     max-height: auto;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
-    background-color: rgba(178,34,34,0.9);
+    background-color: rgba(178,34,34,0.5);
     border-radius: 20px;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
+.conteiner__filho{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #E9967A;
+    width: 80%;
+    min-height: 80%;
+    max-height: auto;
+    border-radius: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    box-shadow: 0 0 1em #DC143C;
+}
 .formulario{
+    margin: 20px 0 0 0;
     height: 100px;
     display: flex;
     flex-direction: column;
@@ -37,7 +53,9 @@
     border-radius: 30px;
     background-color: #FA8072;
 }
+
  .botao{
+    margin: 25px 0 0 0;
    padding: 15px;
    border-radius: 30px;
    border: none;
@@ -48,6 +66,18 @@
  .botao:hover{
     cursor: pointer;
     padding: 20px;
-    background-color: #8B0000;
+    background-color: #FF6347;
  }
 
+
+ @keyframes colors{
+    0%{
+        background-position: 0% 50%;
+    }
+    50%{
+        background-position: 100% 50%;
+    }
+    100%{
+        background-position: 0% 50%;
+    }
+}
