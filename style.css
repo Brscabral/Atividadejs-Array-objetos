@@ -6,7 +6,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background: linear-gradient(45deg,#E9967A,#FA8072,#FF6347);
+    background: linear-gradient(45deg,#F5F5F5,#6495ED,#4169E1);
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     background-size: 300% 300%;
     animation: colors 3s ease infinite;
@@ -19,7 +19,7 @@
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
-    background-color: rgba(178,34,34,0.5);
+    background-color: rgba(217, 229, 230, 0.504);
     border-radius: 20px;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
@@ -28,13 +28,13 @@
     flex-direction: column;
     align-items: center;
     justify-content: space-between;
-    background-color: #E9967A;
+    background-color: 	#6495ED;
     width: 80%;
     min-height: 80%;
     max-height: auto;
     border-radius: 20px;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    box-shadow: 0 0 1em #DC143C;
+    box-shadow:4px 4px 4px 2px rgba(0, 0, 0, 0.3);
 }
 .formulario{
     margin: 20px 0 0 0;
@@ -46,12 +46,12 @@
 #nome{
     padding: 10px;
     border-radius: 30px;
-    background-color: #FA8072;
+    background-color: #87CEFA;
 }
 #salario{
     padding: 10px;
     border-radius: 30px;
-    background-color: #FA8072;
+    background-color: #87CEFA;
 }
 
  .botao{
@@ -59,14 +59,14 @@
    padding: 15px;
    border-radius: 30px;
    border: none;
-   background-color:#FA8072 ;
+   background-color:#87CEFA ;
    font-size: 1.233em;
    transition: 1s;
  }
  .botao:hover{
     cursor: pointer;
     padding: 20px;
-    background-color: #FF6347;
+    background-color: #4169E1;
  }
 
 
